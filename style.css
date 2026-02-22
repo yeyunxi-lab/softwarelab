@@ -83,7 +83,7 @@ transform: translate(-50%, -50%);
 
 #mainText2 {
   position: fixed;
-  bottom: -13%;
+  bottom: -15%;
   left: 50%;
 
 -webkit-transform: translate(-50%, -50%); /* Safari */
@@ -93,7 +93,7 @@ transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 
   font-family: 'variableFont';
-  font-size: 100px;
+  font-size: 60px;
   color: rgb(51, 255, 0);
   text-align: left;
   letter-spacing: 0;
@@ -104,7 +104,7 @@ transform: translate(-50%, -50%);
 }
 
 #mainText3 {
-  position: fixed;
+position: fixed;
 top: 25%;
 left: 50%;
 
@@ -128,17 +128,12 @@ transform: translate(-50%, -50%);
 
 #mainText4 {
 position: fixed;
-top: 50%;
-left: 50%;
+top: -7%;
+right: 20%;
 
--webkit-transform: translate(-50%, -50%); /* Safari */
--moz-transform: translate(-50%, -50%); /* Firefox */
--ms-transform: translate(-50%, -50%); /* IE 9 */
--o-transform: translate(-50%, -50%); /* Opera */
-transform: translate(-50%, -50%);
 
   font-family: 'variableFont';
-  font-size: 100px;
+  font-size: 30px;
   color: rgb(51, 255, 0);
   text-align: left;
   letter-spacing: 0;
@@ -169,3 +164,34 @@ transform: translate(-50%, -50%);
 
 
 /* Image ================================================ */
+#image1 {
+  width: 300px;
+  position: fixed;
+  top: 35%;
+  left: 5%;
+  border-color: rgb(255, 255, 255);
+  border: 10px;
+
+}
+#image2 {
+  width: 200px;
+  position: fixed;
+  top: 45%;
+  right: 10%;
+}
+
+#image3 {
+  width: 200px;
+  position: fixed;
+  top: 60%;
+  left: 23%;
+
+}
+
+#image4 {
+  width: 200px;
+  position: fixed;
+  top: 85%;
+  left: 5%;
+
+}

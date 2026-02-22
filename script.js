@@ -1,7 +1,7 @@
 // =================================================
 // ✅ ➊ Paste your model URL
 // =================================================
-   const URL = "https://teachablemachine.withgoogle.com/models/2Npj7w7f7/";
+   const URL = "https://teachablemachine.withgoogle.com/models/YG0NebEQG/";
 
 
 // =================================================
@@ -92,22 +92,40 @@
       if (maxIndex === 0) {
         document.querySelector("#mainText1").className = "variable1";
         document.querySelector("#mainText2").textContent = "Feb 27, 4:30 PM";
+        document.querySelector("#mainText2").className = "variable3";
         document.querySelector("#mainText3").className = "variable3";
-        document.querySelector("#mainText3").textContent = "Performance Artist";
+        document.querySelector("#mainText3").textContent = "↘Performance Artist↙";
+        document.body.style.backgroundColor = "#ff0000";
+        document.querySelector("#image1").src = "./img/performance_1.png";
+        document.querySelector("#image2").src = "./img/performance_2.jpg";
+        document.querySelector("#image3").src = "./img/performance_3.jpg";
+     
       } 
       else if (maxIndex === 1) {
          document.querySelector("#mainText1").className = "variable3";
          document.querySelector("#mainText2").textContent = "Boston University Graphic Design";
+         document.querySelector("#mainText2").className = "variable3";
          document.querySelector("#mainText3").className = "variable1";
-         document.querySelector("#mainText3").textContent = "Creative Coder";
-         document.body.style.backgroundColor = "#ff0000";
+         document.querySelector("#mainText3").textContent = "↘Creative Coder↙";
+         document.body.style.backgroundColor = "#0004ff";
+         document.querySelector("#image1").src = "./img/code_1.gif";
+         document.querySelector("#image2").src = "./img/code_2.jpg";
+         document.querySelector("#image3").src = "./img/code_3.jpg";
+
+
+   
       } 
       else if (maxIndex === 2) {
          document.querySelector("#mainText1").className = "variable1";
          document.querySelector("#mainText2").textContent = "808 Common Ave Room 410 or on Zoom";
+         document.querySelector("#mainText2").className = "variable3";
          document.querySelector("#mainText3").className = "variable3";
-         document.querySelector("#mainText3").textContent = "Educator";
-         document.body.style.backgroundColor = "#ff0000";
+         document.querySelector("#mainText3").textContent = "↘Educator↙";
+         document.body.style.backgroundColor = "#ff00ea";
+         document.querySelector("#image1").src = "./img/educator_1.jpg";
+         document.querySelector("#image2").src = "./img/educator_2.jpg";
+         document.querySelector("#image3").src = "./img/educator_3.jpg";
+
       } 
   
 
